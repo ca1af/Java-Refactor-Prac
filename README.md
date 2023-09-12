@@ -1,7 +1,7 @@
 
 
 # 이 repo 의 원본 (중요!)
-https://github.com/ca1af/GildedRose-Refactoring-Kata
+https://github.com/emilybache/GildedRose-Refactoring-Kata
 
 오직 연습을 위해서, 자바 부분만 사용합니다!
 
