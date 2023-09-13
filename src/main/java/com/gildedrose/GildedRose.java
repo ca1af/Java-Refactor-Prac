@@ -1,9 +1,9 @@
 package com.gildedrose;
 
-import com.gildedrose.filter.Filters;
+import com.gildedrose.filter.ItemFilters;
 
 class GildedRose {
-    private final Filters filters;
+    private final ItemFilters filters;
     private final Item[] items;
 
     public Item[] getItems() {
@@ -12,7 +12,7 @@ class GildedRose {
 
     public GildedRose(Item[] items) {
         this.items = items;
-        this.filters = new Filters();
+        this.filters = new ItemFilters();
     }
 
     public void updateQuality(){

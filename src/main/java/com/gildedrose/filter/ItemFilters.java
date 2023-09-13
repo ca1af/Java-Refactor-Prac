@@ -5,13 +5,13 @@ import com.gildedrose.Item;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Filters {
+public class ItemFilters {
     private final List<ItemFilter> filters;
 
-    public Filters() {
+    public ItemFilters() {
         this.filters = init();
     }
-    public List<ItemFilter> init(){
+    public List<ItemFilter> init(){ // 의존주입 받는 형태로 만들어도 좋은데...
         SulfurasFilter sulfurasFilter = new SulfurasFilter();
         AgedBrieFilter agedBrieFilter = new AgedBrieFilter();
         BackstagePassFilter backstagePassFilter = new BackstagePassFilter();
