@@ -1,5 +1,5 @@
 package com.gildedrose;
-
+@Deprecated
 public class TexttestFixture {
     public static void main(String[] args) {
         System.out.println("OMGHAI!");
@@ -30,7 +30,6 @@ public class TexttestFixture {
                 System.out.println(item);
             }
             System.out.println();
-            app.updateQuality();
         }
     }
 
