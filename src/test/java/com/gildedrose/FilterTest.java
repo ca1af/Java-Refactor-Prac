@@ -7,11 +7,11 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 class FilterTest {
     private FilterTestHelper testHelper;
-
     @BeforeEach
     void setUp() {
         testHelper = new FilterTestHelper();
     }
+
 
     @Test
     void sulfurasTest() {
