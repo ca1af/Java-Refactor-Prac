@@ -1,6 +1,6 @@
 package com.gildedrose.filter;
 
-import com.gildedrose.QualityCalculator.QualityCalculator;
+import com.gildedrose.quality_calcultor.QualityCalculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

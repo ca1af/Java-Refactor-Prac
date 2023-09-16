@@ -1,4 +1,4 @@
-package com.gildedrose.QualityCalculator;
+package com.gildedrose.quality_calcultor;
 
 public class QualityCalculator {
     private static Integer quality = -1;
