@@ -5,8 +5,7 @@ import com.gildedrose.Item;
 public class NormalItemFilter extends ItemFilter {
 
     @Override
-    public void filterItem(Item item) {
-        if (isItemChanged) return;
+    public void doFilter(Item item) {
         item.sellIn--;
         if (isSellInUnderZero(item)) {
             doubleDecreaseQuality(item);

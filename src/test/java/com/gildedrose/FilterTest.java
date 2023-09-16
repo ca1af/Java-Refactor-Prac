@@ -78,6 +78,11 @@ class FilterTest {
     }
 
     @Test
+    void conjured_AgedBrie_Test() {
+        testHelper.setup("Conjured Aged Brie", 0, 10); //
+    }
+
+    @Test
     void sulfuras_brie_backstage_conjured_normal_mixtureTest() {
         //given
         Item sulfuras = new Item("Sulfuras, Hand of Ragnaros", 0, 0);

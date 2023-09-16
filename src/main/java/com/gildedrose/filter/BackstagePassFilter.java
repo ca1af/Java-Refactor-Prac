@@ -4,8 +4,7 @@ import com.gildedrose.Item;
 
 public class BackstagePassFilter extends ItemFilter{
     @Override
-    void filterItem(Item item) {
-        if (isItemChanged) return;
+    protected void doFilter(Item item) {
         if (!item.name.contains("Backstage Pass")) return;
         if (isSellInUnderZero(item)) {
             item.quality = 0;
@@ -25,12 +24,10 @@ public class BackstagePassFilter extends ItemFilter{
             item.quality += 2;
             return;
         }
-
         if (sellIn <= 5){
             item.quality += 3;
             return;
         }
-
         item.quality++;
     }
 }

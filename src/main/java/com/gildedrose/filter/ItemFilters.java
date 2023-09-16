@@ -29,6 +29,6 @@ public class ItemFilters {
         for (ItemFilter filter : filters) {
             filter.filterItem(item);
         }
-        ItemFilter.initItemBoolean();
+        ItemFilter.setItemChangedFalse();
     }
 }
