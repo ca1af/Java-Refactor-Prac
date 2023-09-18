@@ -24,7 +24,7 @@ public class QualityCalculator {
 
     public static synchronized boolean brieCalculator(String keyword){
         return calculateByKeyword(keyword, keyword1 -> {
-            if (keyword1.contains("Aged Brie")) {
+            if (keyword1.contains("Aged Brie")) { // 이 부분도 캡슐화 가능?
                 quality = -quality;
                 return true;
             }
